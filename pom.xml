@@ -6,7 +6,7 @@
 
 	<groupId>com.borasoftware.balau</groupId>
 	<artifactId>balau-integration-test-maven-plugin</artifactId>
-	<version>19.6.1</version>
+	<version>19.6.2-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
 	<name>Balau Integration Test Maven plugin</name>
 	<url>https://github.com/borasoftware/balau-integration-test-maven-plugin</url>
