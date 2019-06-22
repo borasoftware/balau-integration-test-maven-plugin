@@ -38,7 +38,7 @@ import java.util.List;
  *
  * @author Nicholas Smethurst
  */
-@Mojo(name = "test", threadSafe = true, defaultPhase = LifecyclePhase.CLEAN)
+@Mojo(name = "test", threadSafe = true, defaultPhase = LifecyclePhase.INTEGRATION_TEST)
 public class BalauIntegrationTestMojo extends AbstractMojo {
 	@Parameter(defaultValue = "${project.build.directory}", readonly = true, required = true)
 	private File projectBuildDirectory;
